@@ -1,0 +1,109 @@
+body {
+  font: small sans-serif;
+  -webkit-print-color-adjust: exact;
+}
+
+h1, h2, h3 {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin: 16px 0px 0px 0px;
+  width: 100%;
+}
+
+h3 .period {
+  font-weight: normal;
+  font-size: smaller;
+}
+
+h4 {
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+
+ul {
+  margin: 6px 0px 0px 0px;
+  padding: 0 0 0 1.5em;
+}
+
+.period {
+  display: inline;
+  float: right;
+}
+
+.contact ul, .contact li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+}
+
+.contact h2 {
+  display: none;
+}
+.contact li:after {
+  content: " | ";
+}
+
+.contact li:last-child:after {
+  content: "";
+}
+
+.period {
+  white-space: nowrap;
+}
+
+.period .dtend:before {
+  content: " - ";
+}
+
+.period .duration:before {
+  content: " ";
+}
+
+.experiences .org {
+  display: inline;
+}
+
+.experiences ul li:after {
+  content: ";";
+}
+
+.experiences ul li:last-child:after {
+  content: ".";
+}
+
+.skills ul {
+  padding: 0;
+}
+
+.skills .skill {
+  background-color: #ccc;
+  border-radius: 0.7em;
+  border: 1px solid #777;
+  display: inline;
+  padding: 0.2em;
+  line-height: 200%;
+  white-space: nowrap;
+}
+
+.url, .org {
+  display: block;
+}
+
+.authors {
+  padding: 0px;
+}
+
+.authors, .author {
+  display: inline;
+}
+
+.author:after {
+  content: ", ";
+}
+
+.author:last-child:after {
+  content: none;
+}
+.hide {
+  display: none
+}
